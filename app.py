@@ -9,9 +9,9 @@ with open("perrito.json") as source:
 st.lottie(animation,width =350)
 
 translator = Translator()
-st.title('Uso de textblob')
+st.title('Adivino tus sentimientos :o y los traduzco')
 
-st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
+st.subheader("Por favor selecciona que quieres analizar")
 with st.sidebar:
                st.subheader("Polaridad y Subjetividad")
                ("""
