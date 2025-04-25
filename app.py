@@ -5,7 +5,7 @@ from googletrans import Translator
 translator = Translator()
 st.title('Uso de textblob')
 
-st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
+st.subheader("Lee esta información si quieres saber más!!")
 with st.sidebar:
                st.subheader("Polaridad y Subjetividad")
                ("""
@@ -20,7 +20,7 @@ with st.sidebar:
 
 
 with st.expander('Analizar Polaridad y Subjetividad en un texto'):
-    text1 = st.text_area('Escribe por favor: ')
+    text1 = st.text_area('Escribe aqui: ')
     if text1:
 
         translation = translator.translate(text1, src="es", dest="en")
